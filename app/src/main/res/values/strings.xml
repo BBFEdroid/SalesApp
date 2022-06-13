@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">SalesApp</string>
+    <string name="title_activity_customer">CustomerActivity</string>
+
+    <string name="customer_title">CUSTOMER</string>
+    <string name="sales_order_title">SALES ORDER</string>
+    <string name="detail_sales_order_title">DETAIL SALES ORDER</string>
+    <string name="title_activity_list_customer">ListCustomerActivity</string>
+    <string name="customer_list_title">List Customer</string>
+    <string name="customer_add_title">Add Customer</string>
+    <string name="customer_name_title">Customer Name</string>
+    <string name="customer_type_title">Customer Type</string>
+    <string name="customer_contact_title">Customer Contact</string>
+    <string name="customer_address_title">Customer Address</string>
+
+    <string name="payment_new">New</string>
+    <string name="payment_received">Payment Received</string>
+    <string name="payment_verified">Verified</string>
+    <string name="payment_pending">Pending Installation</string>
+    <string name="payment_installation">Installation Scheduled</string>
+    <string name="payment_completed">Completed</string>
+
+    <string name="old_customer">Old Customer</string>
+    <string name="new_customer">New Customer</string>
+    <string name="search_title">Seacrh customer</string>
+    <string name="cust_phone_dummy">08x-xxx-xxx-xxx</string>
+    <string name="dummy_long_text">This document covers the basics of retrieving database data, how data is ordered, and how to perform simple queries on data. Data retrieval in the Admin SDK is implemented slightly differently across different programming languages.</string>
+    <string name="save_title">Save</string>
+    <string name="qty_value">x1</string>
+    <string name="price_value">Rp 1.000.000</string>
+    <string name="status_new">New</string>
+
+</resources>
