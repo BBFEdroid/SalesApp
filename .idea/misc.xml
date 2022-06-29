@@ -12,12 +12,14 @@
         <entry key="..\:/Android_Project/SalesApp/app/src/main/res/drawable/shape_rectangle_border_small.xml" value="0.1675" />
         <entry key="..\:/Android_Project/SalesApp/app/src/main/res/drawable/shape_rectangle_menu_white_medium.xml" value="0.1675" />
         <entry key="..\:/Android_Project/SalesApp/app/src/main/res/drawable/shape_rectangle_primary.xml" value="0.1675" />
+        <entry key="..\:/Android_Project/SalesApp/app/src/main/res/drawable/shape_rectangle_warning.xml" value="0.1675" />
         <entry key="..\:/Android_Project/SalesApp/app/src/main/res/layout/activity_add_customer.xml" value="0.22" />
         <entry key="..\:/Android_Project/SalesApp/app/src/main/res/layout/activity_detail_sales_order.xml" value="0.209375" />
         <entry key="..\:/Android_Project/SalesApp/app/src/main/res/layout/activity_list_customer.xml" value="0.25" />
         <entry key="..\:/Android_Project/SalesApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Android_Project/SalesApp/app/src/main/res/layout/activity_sales_order.xml" value="0.209375" />
-        <entry key="..\:/Android_Project/SalesApp/app/src/main/res/layout/item_list_customer.xml" value="0.22" />
+        <entry key="..\:/Android_Project/SalesApp/app/src/main/res/layout/activity_update_customer.xml" value="0.25" />
+        <entry key="..\:/Android_Project/SalesApp/app/src/main/res/layout/item_list_customer.xml" value="0.33" />
         <entry key="..\:/Android_Project/SalesApp/app/src/main/res/layout/item_list_sales_order.xml" value="0.33" />
       </map>
     </option>

@@ -13,4 +13,5 @@
     <color name="colorPrimarySecond">#804A7AFF</color>
     <color name="secondaryTextColor">#69737C</color>
     <color name="colorOrange">#FB8C00</color>
+    <color name="colorWarning">#E53935</color>
 </resources>
