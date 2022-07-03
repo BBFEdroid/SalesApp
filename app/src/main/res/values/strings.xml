@@ -27,10 +27,18 @@
     <string name="dummy_long_text">This document covers the basics of retrieving database data, how data is ordered, and how to perform simple queries on data. Data retrieval in the Admin SDK is implemented slightly differently across different programming languages.</string>
     <string name="save_title">Save</string>
     <string name="qty_value">x1</string>
-    <string name="price_value">Rp 1.000.000</string>
+    <string name="price_value">0</string>
     <string name="status_new">New</string>
     <string name="customer_update_title">Update Customer</string>
     <string name="delete_title">Delete</string>
     <string name="update_title">Update</string>
+    <string name="product_add_title">Add Product</string>
+    <string name="product_name_title">Product Name</string>
+    <string name="product_stock_title">Stock</string>
+    <string name="stock_value">0</string>
+    <string name="product_price_title">Price</string>
+    <string name="product_discount_title">Discount</string>
+    <string name="discount_value">0</string>
+    <string name="product_title">Product</string>
 
 </resources>

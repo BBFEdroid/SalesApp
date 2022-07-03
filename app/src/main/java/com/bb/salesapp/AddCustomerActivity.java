@@ -18,6 +18,7 @@ public class AddCustomerActivity extends AppCompatActivity {
         binding = ActivityAddCustomerBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
+        binding.addCustBack.setOnClickListener(v -> finish());
         binding.addSaveBtn.setOnClickListener( v -> {
             DatabaseHelper databaseHelper = new DatabaseHelper(this);
             CustomerModel customerModel = new CustomerModel();

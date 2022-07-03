@@ -21,6 +21,11 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        binding.mainProduct.setOnClickListener(v -> {
+            Intent intent = new Intent(this, AddProductActivity.class);
+            startActivity(intent);
+        });
+
         binding.mainSalesOrder.setOnClickListener(v -> {
             Intent intent = new Intent(this, SalesOrderActivity.class);
             startActivity(intent);

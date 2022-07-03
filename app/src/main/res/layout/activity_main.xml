@@ -64,6 +64,7 @@
         android:padding="4dp"
         android:focusable="true"
         android:clickable="true"
+        android:contentDescription="@string/app_name"
         android:background="?android:selectableItemBackgroundBorderless"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/main_user_name"
@@ -133,7 +134,7 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/main_sales_order"
+            android:id="@+id/main_product"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -143,6 +144,63 @@
             android:elevation="3dp"
             android:background="@drawable/shape_rectangle_menu_white_medium"
             app:layout_constraintTop_toBottomOf="@+id/main_customer"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <ImageView
+                android:id="@+id/main_product_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/icons8_customer_64"
+                android:contentDescription="@string/app_name"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent=".15"/>
+
+            <TextView
+                android:id="@+id/main_product_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/nunito_sans_bold"
+                android:textSize="20sp"
+                android:text="@string/product_title"
+                android:textColor="@color/primaryTextColor"
+                app:layout_constraintStart_toStartOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@+id/main_product_image"
+                app:layout_constraintBottom_toBottomOf="@+id/main_product_image"
+                app:layout_constraintEnd_toStartOf="@+id/main_ic_product"/>
+
+            <ImageView
+                android:id="@+id/main_ic_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_arrow_right"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/main_sales_order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="24dp"
+            android:padding="10dp"
+            android:elevation="3dp"
+            android:background="@drawable/shape_rectangle_menu_white_medium"
+            app:layout_constraintTop_toBottomOf="@+id/main_product"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent">
 
