@@ -1,14 +1,13 @@
-package com.bb.salesapp;
+package com.bb.salesapp.viewmodel.customer;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
-import android.database.Cursor;
 import android.os.Bundle;
-import android.widget.Toast;
 
+import com.bb.salesapp.R;
 import com.bb.salesapp.adapter.ListCustomerAdapter;
 import com.bb.salesapp.database.DatabaseHelper;
 import com.bb.salesapp.model.CustomerModel;

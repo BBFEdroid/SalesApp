@@ -1,11 +1,10 @@
-package com.bb.salesapp;
+package com.bb.salesapp.viewmodel.product;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
 import com.bb.salesapp.database.DatabaseHelper;
-import com.bb.salesapp.databinding.ActivityAddCustomerBinding;
 import com.bb.salesapp.databinding.ActivityAddProductBinding;
 import com.bb.salesapp.model.ProductModel;
 

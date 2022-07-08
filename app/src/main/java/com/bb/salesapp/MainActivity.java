@@ -6,6 +6,10 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import com.bb.salesapp.databinding.ActivityMainBinding;
+import com.bb.salesapp.viewmodel.product.AddProductActivity;
+import com.bb.salesapp.viewmodel.sale.DetailSalesOrderActivity;
+import com.bb.salesapp.viewmodel.customer.ListCustomerActivity;
+import com.bb.salesapp.viewmodel.sale.SalesOrderActivity;
 
 public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding binding;

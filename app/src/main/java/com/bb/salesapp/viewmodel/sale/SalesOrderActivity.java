@@ -1,8 +1,10 @@
-package com.bb.salesapp;
+package com.bb.salesapp.viewmodel.sale;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.bb.salesapp.R;
 
 public class SalesOrderActivity extends AppCompatActivity {
 

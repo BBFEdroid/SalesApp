@@ -1,14 +1,16 @@
-package com.bb.salesapp;
+package com.bb.salesapp.viewmodel.customer;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class DetailSalesOrderActivity extends AppCompatActivity {
+import com.bb.salesapp.R;
+
+public class UpdateCustomerActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail_sales_order);
+        setContentView(R.layout.activity_update_customer);
     }
 }

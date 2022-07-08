@@ -1,4 +1,4 @@
-package com.bb.salesapp;
+package com.bb.salesapp.viewmodel.customer;
 
 import androidx.appcompat.app.AppCompatActivity;
 

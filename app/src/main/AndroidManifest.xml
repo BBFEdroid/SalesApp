@@ -14,22 +14,22 @@
         android:theme="@style/Theme.SalesApp"
         tools:targetApi="31">
         <activity
-            android:name=".AddProductActivity"
+            android:name=".viewmodel.product.AddProductActivity"
             android:exported="false" />
         <activity
-            android:name=".UpdateCustomerActivity"
+            android:name=".viewmodel.customer.UpdateCustomerActivity"
             android:exported="false" />
         <activity
-            android:name=".DetailSalesOrderActivity"
+            android:name=".viewmodel.sale.DetailSalesOrderActivity"
             android:exported="false" />
         <activity
-            android:name=".SalesOrderActivity"
+            android:name=".viewmodel.sale.SalesOrderActivity"
             android:exported="false" />
         <activity
-            android:name=".AddCustomerActivity"
+            android:name=".viewmodel.customer.AddCustomerActivity"
             android:exported="false" />
         <activity
-            android:name=".ListCustomerActivity"
+            android:name=".viewmodel.customer.ListCustomerActivity"
             android:exported="false"
             android:label="@string/title_activity_list_customer"
             android:theme="@style/Theme.SalesApp" />
