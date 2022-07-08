@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         binding.mainCustomer.setOnClickListener(v -> {
-            Intent intent = new Intent(this, AddCustomerActivity.class);
+            Intent intent = new Intent(this, ListCustomerActivity.class);
             startActivity(intent);
         });
 

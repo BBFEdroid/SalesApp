@@ -9,6 +9,9 @@ public class SaleModel {
     int sale_product_total;
     String sale_status;
 
+    public SaleModel(String sale_cust_name, String sale_product_name, String sale_product_qty, String sale_product_discount, String sale_product_total, String sale_status) {
+    }
+
     public int getId() {
         return Id;
     }

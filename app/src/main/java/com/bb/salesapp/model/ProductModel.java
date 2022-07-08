@@ -6,6 +6,14 @@ public class ProductModel {
     String product_stock;
     String product_price;
 
+    public ProductModel(String product_name, String product_stock, String product_price) {
+
+    }
+
+    public ProductModel() {
+
+    }
+
     public int getId() {
         return Id;
     }

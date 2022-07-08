@@ -6,6 +6,15 @@ public class CustomerModel {
     String cust_contact;
     String cust_address;
 
+    public CustomerModel(String cust_name, String cust_contact, String cust_addres) {
+
+    }
+
+    public CustomerModel() {
+
+    }
+
+
     public int getId() {
         return Id;
     }
