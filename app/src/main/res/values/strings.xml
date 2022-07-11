@@ -40,5 +40,10 @@
     <string name="product_discount_title">Discount</string>
     <string name="discount_value">0</string>
     <string name="product_title">PRODUCT</string>
+    <string name="quantity_title">Quantity</string>
+    <string name="decerase_title">-</string>
+    <string name="increase_title">+</string>
+    <string name="quantity_value">0</string>
+    <string name="total_title">Total</string>
 
 </resources>

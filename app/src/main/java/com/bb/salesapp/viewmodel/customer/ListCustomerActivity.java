@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.ImageView;
 
 import com.bb.salesapp.R;
 import com.bb.salesapp.adapter.ListCustomerAdapter;
@@ -29,7 +30,7 @@ public class ListCustomerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_customer);
 
-
+        findViewById(R.id.list_cust_back).setOnClickListener( v -> finish());
         add_cust_btn = findViewById(R.id.list_cust_add_btn);
         add_cust_btn.setOnClickListener(v -> {
             Intent intent = new Intent(this, AddCustomerActivity.class);

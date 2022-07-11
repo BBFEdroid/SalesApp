@@ -18,10 +18,11 @@
         <entry key="..\:/Android_Project/SalesApp/app/src/main/res/layout/activity_detail_sales_order.xml" value="0.209375" />
         <entry key="..\:/Android_Project/SalesApp/app/src/main/res/layout/activity_list_customer.xml" value="0.25" />
         <entry key="..\:/Android_Project/SalesApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Android_Project/SalesApp/app/src/main/res/layout/activity_sales_order.xml" value="0.209375" />
+        <entry key="..\:/Android_Project/SalesApp/app/src/main/res/layout/activity_sales_order.xml" value="0.33" />
         <entry key="..\:/Android_Project/SalesApp/app/src/main/res/layout/activity_update_customer.xml" value="0.25" />
         <entry key="..\:/Android_Project/SalesApp/app/src/main/res/layout/item_list_customer.xml" value="0.33" />
         <entry key="..\:/Android_Project/SalesApp/app/src/main/res/layout/item_list_sales_order.xml" value="0.33" />
+        <entry key="..\:/Users/Boost/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/select_dialog_item.xml" value="0.20520833333333333" />
       </map>
     </option>
   </component>
